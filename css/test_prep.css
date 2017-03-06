@@ -9,9 +9,10 @@
   padding-right: 0px;
   padding-bottom: 4px;
   color: #FFFFFF;
-  text-align:right; }
+  text-align:right;
+}
 
-.bettergrades {
+.betterGrades {
   background-image: url(../images/hero-image.png);
   background-position-x: 60%;
   background-position-y: 50%;
@@ -22,10 +23,12 @@
   background-origin: initial;
   background-clip: initial;
   background-color: initial;
-  position: relative; }
+  position: relative;
+}
 
 .heroSlide {
   min-height: 640px;
   height:80vh;
   display:flex;
-  align-items:center; }
+  align-items:center;
+}
