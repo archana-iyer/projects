@@ -1,0 +1,42 @@
+
+
+
+ h1 {
+font-family:'Raleway', sans-serif;
+font-size: 58px;
+
+padding-top: 4px;
+padding-left: 0px;
+padding-right: 0px;
+padding-bottom: 4px;
+color: #FFFFFF;
+
+}
+
+div.hero {
+  text-align: center;
+}
+
+.o-bettergrades {
+  background-image: url(../images/hero-image.png);
+  background-position-x: 60%;
+background-position-y: 50%;
+    background-size: cover;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+}
+.o-bettergrades {
+  position: relative;
+}
+.c-heroSlide {
+  min-height: 640px;
+}
+.cheroSlide {
+  height:80vh;
+  display:flex;
+  align-items: center;
+}
