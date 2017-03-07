@@ -1,35 +1,45 @@
 
 
 
-.heroSlide__content {
-  font-family:'Raleway', sans-serif;
-  font-size: 48px;
-  line-height: 54px;
-  padding-top: 4px;
-  padding-left: 0px;
-  padding-right: 0px;
-  padding-bottom: 4px;
-  color: #FFFFFF;
-  text-align: right;
-}
-
-.betterGrades {
-  background-image: url(../images/hero-image.png);
-  background-position-x: 60%;
-  background-position-y: 50%;
-  background-size: cover;
-  background-repeat-x: no-repeat;
-  background-repeat-y: no-repeat;
-  background-attachment: initial;
-  background-origin: initial;
-  background-clip: initial;
-  background-color: initial;
-  position: relative;
-}
-
-.heroSlide {
-  min-height: 640px;
-  height: 80vh;
+.flex-container {
   display: flex;
+flex-direction: row;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  -webkit-box-align: center;
+}
+
+.nowrap {
+  -webkit-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+}
+.flex-item-child-1 {
+  flex: none;
+  background-image: url(../images/hero-image.png);
+  background-size: cover;
+  width: 50%;
+  height: 720px;
+  margin: 0;
+}
+
+.flex-item-child-2 {
+  flex: none;
+  background-color: #14C81F;
+  width: 50%;
+  height: 720px;
+  margin: 0;
+  color: #FFFFFF;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+  line-height: 50px;
+  text-align: center;
   align-items: center;
 }
