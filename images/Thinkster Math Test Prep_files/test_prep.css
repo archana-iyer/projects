@@ -1,0 +1,101 @@
+.header_branding {
+  padding: 16px 0 16px 24px;
+  align-content: space-around;;
+
+}
+
+.heroBox {
+  display: flex;
+flex-direction: row;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  -webkit-box-align: center;
+}
+
+.nowrap {
+  -webkit-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+}
+.heroSlide__image {
+  display:flex;
+  background-image: url(../images/hero-image-2.png);
+  background-size: cover;
+  width: 50%;
+  height: 720px;
+  margin: 0;
+}
+
+.heroSlide__content {
+  display: flex;
+  flex-direction: column;
+  background-color: #14C81F;
+  width: 50%;
+  height: 720px;
+  margin: 0;
+  color: #FFFFFF;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+  line-height: 50px;
+  letter-spacing: 0.43px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.heroSlide__title {
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding 0.375rem 0 0.125rem;
+}
+  .title__decorator {
+    padding: 0.375rem 1.75rem 0.125rem;
+    position: relative;
+  }
+    .title__decorator::before, .title__decorator::after {
+      content: '\2014';
+      position: absolute;
+    }
+    .title__decorator::before {
+      left: 0;
+    }
+    .title__decorator::after {
+      right:0;
+    }
+.heroSlide__copy {
+  font-size: 22px;
+  line-height: 32px;
+  font-family: "Work Sans", "Helvetica", Arial, sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  vertical-align: baseline;
+
+}
+p {
+    padding: 6px 20px 10px 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.heroBox__button
+{
+  text-decoration: none;
+  background: #FFF;
+  border-radius: 200px 200px 200px 200px;
+  font-family: "Raleway", "Work Sans", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 32px;
+  /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);*/
+  color: #62c814;
+  padding: 16px 40px 16px 40px;
+}
