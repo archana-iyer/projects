@@ -1,0 +1,204 @@
+
+/* Styling for the performance page*/
+
+  body {
+
+  }
+
+  .h\(48\), .h\(32\), .h\(24\), .h\(42\), .s\(14\) {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+  }
+
+  .p\(20\), .p\(16\) {
+    font-family: 'Muli', sans-serif;
+    font-weight: 300;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav {
+    height: 55px;
+    width: 100%;
+  }
+    .nav__item {
+      display: none;
+    }
+
+    .logo {
+    margin: 8px 32px 8px 32px;
+    width: 157.14px;
+    height: 40px;
+    }
+
+
+
+  .hero {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    height: 60vh;
+    background: #00B4F1;
+    justify-content: center;
+    padding: 0 0 120px 0;
+    margin-bottom: -120px;
+  }
+    .hero__content {
+      color: white;
+      text-align: center;
+      width: 90%;
+      align-self: center;
+      margin-bottom: 27px;
+      padding-top: 52px;
+
+    }
+
+    .hero__cta {
+      align-items: center;
+      text-align: center;
+    }
+
+    .hero__button {
+      font-size: 16px;
+      line-height: 24px;
+      font-family: 'Muli', sans-serif;
+      font-weight: 700;
+      border-radius: 200px 200px 200px 200px;
+      background: white;
+      padding: 16px 24px;
+      color: #00b4f1;
+    }
+
+    .hero__download {
+      margin-top: 32px;
+      width: 47%;
+    }
+
+
+    .heroImage {
+      display: flex;
+      display: -webkit-flex;
+      flex-direction: column;
+      justify-content: center;
+      background: transparent;
+    }
+
+    .heroImage__ipad {
+      width: 90%;
+      vertical-align: baseline;
+      align-self: center;
+      padding-top: 48px;
+    }
+
+    .explainer {
+      margin: 12px 32px;
+      text-align: center;
+      padding: 0;
+    }
+
+  a {
+    text-decoration: none;
+    color: #343434;
+  }
+
+  a:hover {
+    color: #00B4F1;
+  }
+
+  ul, ol {
+    list-style: none;
+  }
+  .a-p\(20\) {
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: 2rem;
+    word-spacing: 1rem;
+  }
+
+  .a-p\(16\) {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height:
+  }
+
+  .h\(48\) {
+    font-size: 4rem;
+    letter-spacing: -0.0625rem;
+    line-height: 4.5rem;
+  }
+
+  .h\(42\) {
+    font-size: 2.625rem;
+    letter-spacing: -0.0625rem;
+    line-height: 3.5rem;
+  }
+
+  .h\(32\) {
+    font-size: 2rem;
+    letter-spacing: -0.0625rem;
+    line-height: 3.5rem;
+  }
+
+  .h\(24\) {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    letter-spacing: -0.0625rem;
+  }
+
+  .s\(14\) {
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.09375rem;
+
+  }
+
+  @media only screen and (min-width: 960px) {
+
+      .logo {
+        width: 220px;
+        height: 56px;
+        margin-top: 12px;
+        margin-bottom: 12px;
+
+      }
+      .nav {
+
+        height: 80px;
+        display: flex;
+        flex-direction: row;
+        background: white;
+      }
+
+
+        .nav__item {
+          font-family: 'Muli', sans-serif;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 24px;
+          margin-right: 16px;
+        }
+
+      .hero {
+        display: flex;
+        display: -webkit-flex;
+
+      }
+      .hero__content {
+        font-size: 48px;
+        line-height: 56px;
+        align-self: center;
+        flex-wrap: wrap;
+      }
+
+      .hero__download {
+        width: 15%;
+        justify-content: space-around;
+      }
+
+
+
+
+  }
