@@ -1,0 +1,39 @@
+.a-h\(34\), .a-h\(36\), .a-h\(18\) {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 41px;
+  padding: 1px 0 3px; }
+
+.a-p\(18\), .a-p\(16\), .a-p\(14\) {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400; }
+
+.a-h\(18\) {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 700; }
+
+.a-p\(18\), .a-p\(16\) {
+  font-size: 16px;
+  line-height: 24px; }
+
+.a-p\(14\) {
+  font-size: 14px;
+  line-height: 26px; }
+
+.a-justify\(center\) {
+  text-align: center; }
+
+@media (min-width: 640px) {
+  .a-h\(36\) {
+    font-size: 36px;
+    line-height: 40px;
+    padding: 1px 0 3px; }
+
+  .a-h\(34\) {
+    font-size: 34px;
+    line-height: 41px;
+    padding: 1px 0 3px; } }
+
+/*# sourceMappingURL=typography.css.map */

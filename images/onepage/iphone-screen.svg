@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="760px" height="137px" viewBox="0 0 760 137" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="101.999998%" y2="100.999999%" id="linearGradient-1">
+            <stop stop-color="#3023AE" offset="0%"></stop>
+            <stop stop-color="#C96DD8" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-2" points="69 0 688 0 760 137 0 137"></polygon>
+    </defs>
+    <g id="Landing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-421.000000, -620.000000)" id="App-overview">
+            <g transform="translate(164.000000, -51.000000)">
+                <g id="Group-2" transform="translate(257.000000, 671.000000)">
+                    <mask id="mask-3" fill="white">
+                        <use xlink:href="#path-2"></use>
+                    </mask>
+                    <use id="Rectangle-22" fill="url(#linearGradient-1)" opacity="0.708663713" xlink:href="#path-2"></use>
+                    <path d="M-51.3125,45.8515625 C-51.3125,45.8515625 -6.14453125,99.109375 198.761719,116.160156 C403.667969,133.210938 653.652344,146.816406 793.132812,109.488281 L788.238281,125.246094 L788.238281,157.903082 L-39.6369597,157.903082" id="Path-29" fill-opacity="0.0599999987" fill="#FFFFFF" mask="url(#mask-3)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

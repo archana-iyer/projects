@@ -2,8 +2,10 @@
 /* Styling for the performance page*/
 
   body {
-
+    margin: 0;
+    padding: 0;
   }
+
 
   .h\(48\), .h\(32\), .h\(24\), .h\(42\), .s\(14\) {
     font-family: 'Rubik', sans-serif;
@@ -14,11 +16,62 @@
     font-family: 'Muli', sans-serif;
     font-weight: 300;
   }
-
-  body {
-    margin: 0;
-    padding: 0;
+  a {
+    text-decoration: none;
+    color: #343434;
   }
+
+  a:hover {
+    color: #00B4F1;
+  }
+
+  ul, ol {
+    list-style: none;
+  }
+  .p\(20\) {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 32px;
+  }
+
+  .p\(16\) {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+  }
+
+  .h\(48\) {
+    font-size: 48px;
+    letter-spacing: -1px;
+    line-height: 56px;
+  }
+
+  .h\(42\) {
+    font-size: 42px;
+    letter-spacing: -1px;
+    line-height: 56px;
+  }
+
+  .h\(32\) {
+    font-size: 32px;
+    letter-spacing: -1px;
+    line-height: 40px;
+  }
+
+  .h\(24\) {
+    font-size: 24px;
+    line-height: 32px
+  }
+
+  .s\(14\) {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #8E8E8E;
+    text-align: center;
+  }
+
 
   .nav {
     height: 55px;
@@ -61,99 +114,66 @@
       text-align: center;
     }
 
-    .hero__button {
-      font-size: 16px;
-      line-height: 24px;
-      font-family: 'Muli', sans-serif;
-      font-weight: 700;
-      border-radius: 200px 200px 200px 200px;
-      background: white;
-      padding: 16px 24px;
-      color: #00b4f1;
-    }
+      .hero__button {
+        font-size: 16px;
+        line-height: 24px;
+        font-family: 'Muli', sans-serif;
+        font-weight: 700;
+        border-radius: 200px 200px 200px 200px;
+        background: white;
+        padding: 16px 24px;
+        color: #00b4f1;
+      }
 
-    .hero__download {
-      margin-top: 32px;
-      width: 47%;
-    }
+      .hero__download {
+        margin-top: 32px;
+        width: 47%;
+      }
 
 
     .heroImage {
       display: flex;
       display: -webkit-flex;
       flex-direction: column;
-      justify-content: center;
-      background: transparent;
     }
 
-    .heroImage__ipad {
-      width: 90%;
-      vertical-align: baseline;
-      align-self: center;
-      padding-top: 48px;
-    }
+      .heroImage__ipad {
+        width: 90%;
+        align-self: center;
+        padding-top: 48px;
+      }
 
-    .explainer {
-      margin: 12px 32px;
-      text-align: center;
-      padding: 0;
-    }
-
-  a {
-    text-decoration: none;
-    color: #343434;
+  .explainer {
+    margin: 20px 22px;
+    text-align: center;
   }
 
-  a:hover {
-    color: #00B4F1;
+  .mediaTitle {
+    padding: 26px 0 26px;;
   }
 
-  ul, ol {
-    list-style: none;
-  }
-  .a-p\(20\) {
-    font-size: 1.25rem;
-    font-weight: 300;
-    line-height: 2rem;
-    word-spacing: 1rem;
-  }
-
-  .a-p\(16\) {
-    font-size: 1rem;
-    font-weight: 500;
-    line-height:
+  .mediaGallery {
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin: 8px;
+    border: 1px solid #F3F3F3;
+    width: 120px;
   }
 
-  .h\(48\) {
-    font-size: 4rem;
-    letter-spacing: -0.0625rem;
-    line-height: 4.5rem;
-  }
+  .mediaGallery img {
+    flex-grow: 1;
+    width: 100%;
+    height: auto;
+    padding-top: 10%;
+    padding-bottom: 10%;
 
-  .h\(42\) {
-    font-size: 2.625rem;
-    letter-spacing: -0.0625rem;
-    line-height: 3.5rem;
-  }
-
-  .h\(32\) {
-    font-size: 2rem;
-    letter-spacing: -0.0625rem;
-    line-height: 3.5rem;
-  }
-
-  .h\(24\) {
-    font-size: 1.5rem;
-    line-height: 2rem;
-    letter-spacing: -0.0625rem;
-  }
-
-  .s\(14\) {
-    font-size: 0.875rem;
-    line-height: 1.5rem;
-    letter-spacing: 0.09375rem;
 
   }
+
+
+
 
   @media only screen and (min-width: 960px) {
 

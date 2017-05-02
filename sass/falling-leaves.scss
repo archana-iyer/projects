@@ -1,0 +1,203 @@
+//  --------------------------------------------------
+//  Landing Page Objects
+
+//  - styles for the landing page
+
+//  --------------------------------------------------
+//  mobile styles (default)
+//  ==================================================
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    a {
+      margin: 0;
+      padding: 0;
+      font-size: 100%;
+      background: transparent;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: #00B4F1;
+    }
+
+
+    .container {
+      display: flex;
+    }
+
+    .pageHero {
+      width: 100%;
+      height: 640px;
+      position: relative;
+      padding-top: 128px;
+      max-height: 480px;
+      margin-bottom: 64px;
+
+
+      /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#454ca4+0,191c41+100 */
+      background: #454ca4; /* Old browsers */
+      background: -moz-radial-gradient(center, ellipse cover, #454ca4 0%, #191c41 100%); /* FF3.6-15 */
+      background: -webkit-radial-gradient(center, ellipse cover, #454ca4 0%,#191c41 100%); /* Chrome10-25,Safari5.1-6 */
+      background: radial-gradient(ellipse at center, #454ca4 0%,#191c41 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#454ca4', endColorstr='#191c41',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+      color: white;
+      background-image: ('../images/onepage/hero-bg.jpg');
+
+      &__leaf {
+
+        &Top {
+          position: absolute;
+          top: 0;
+          left: 15%;
+          width: 80px;
+          height: auto;
+        }
+
+        &Logo {
+          width: 60px;
+          height: 60px;
+        }
+
+        &Folded {
+          width: 72px;
+          height: auto;
+          position: absolute;
+          top: 25%;
+          left: 80%;
+        }
+
+        &Falling {
+          position: absolute;
+          top: 60%;
+          left: 35%;
+          width: 100px;
+          height: auto;
+          z-index: 100;
+        }
+      }
+    }
+
+    .button {
+
+      &__med {
+        display: inline-block;
+        background-color: #7CC714;
+        color: white;
+        font-size: 16px;
+        padding: 8px 24px;
+        border-radius: 200px;
+        box-sizing: border-box;
+        font-family: 'Lato', sans-serif;
+      }
+
+      &--color-1 {
+        background-color: #2468cc;
+      }
+
+      &--color-2 {
+        background-color: #FFFFFF;
+        border: #E8EDFA 2px solid;
+        color: #58627C;
+      }
+    }
+
+    .videoCTA {
+      position: relative;
+
+      &__play {
+        position: absolute;
+        left: 84px;
+        top: 2px;
+      }
+
+      &__title {
+        padding-right: 16px;
+
+      }
+    }
+
+    .iphoneDisplay {
+      background: url('../images/onepage/iphone-screenless@2x.png') no-repeat top center/100% auto;
+      max-height: rem(200px);
+      position: absolute;
+      top: 94%;
+      left: 0;
+      margin: 0 16px;
+
+      &__screen {
+        padding: 0.4% 10.8% 3.6% 10.8%;
+      }
+
+      &__img {
+        width: 100%;
+        height: auto;
+      }
+    }
+
+    .features {
+      padding: 112px 32px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: #E8EDFA;
+      height: 866px;
+      margin: 48px 0 64px;
+
+      &__list {
+        list-style: none;
+        padding: 0;
+      }
+
+      &__item {
+        padding: 16px 0;
+        text-align: center;
+
+        &Img {
+          width: 25%;
+          height: auto;
+        }
+      }
+
+      &__waves {
+        width:120%;
+        height: 250px;
+        display: block;
+      }
+    }
+
+    .dashboard {
+      padding: 32px 16px;
+
+
+      &__content {
+        text-align: center;
+      }
+
+      &__img {
+        width: 100%;
+        height: auto;
+        padding-top: 32px;
+      }
+    }
+
+    .appleWatch {
+      background: url('../images/onepage/watch-bg.png') no-repeat 0 0 / cover;
+      margin-top: 64px;
+
+      &__img {
+        width: 65%;
+        height: auto;
+        position: relative;
+        left:25%;
+      }
+
+      &__content {
+        padding: 16px;
+        text-align: center;
+      }
+    }
