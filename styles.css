@@ -26,3 +26,8 @@ a {
     margin: 16px;
     display: inline-block;
 }
+
+.section {
+  margin-top: 32px;
+  margin-left: 32px;
+}
