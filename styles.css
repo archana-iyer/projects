@@ -1,0 +1,28 @@
+body {
+  background: #F9F9F9;
+}
+
+.container {
+  width: 1280px;
+  margin: auto;
+  color: #FD7F20;
+  text-align: center;
+}
+
+.header {
+  margin: 48px 0;
+  font-size: 24px;
+  font-style: italic;
+  font-family: 'Georgia', 'Times New Roman', serif;
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 16px;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+a {
+    margin: 16px;
+    display: inline-block;
+}
